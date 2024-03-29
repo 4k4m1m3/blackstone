@@ -5,7 +5,7 @@ function lang($sentencia){
 
     //SYSTEM    if($sentencia == "Saved vulnerability" && $_SESSION['idioma'] == "ES"){ $sentencia = "Vulnerabilidad guardada";};
     if($sentencia == "Edit asset" && $_SESSION['idioma'] == "ES"){ $sentencia = "Editar objetivo";};
-    if($sentencia == "Objectives details" && $_SESSION['idioma'] == "ES"){ $sentencia = "Detalles de los objetivos";};
+    if($sentencia == "OBJETIVES DETAILS" && $_SESSION['idioma'] == "ES"){ $sentencia = "DETALLES DE LOS OBJETIVOS";};
     if($sentencia == "At the moment we will have to manually insert a graphic or image." && $_SESSION['idioma'] == "ES"){ $sentencia = "Por el momento deberemos insertar manualmente un gráfico o imagen.";};
     if($sentencia == "Delete" && $_SESSION['idioma'] == "ES"){ $sentencia = "Eliminar";};
     if($sentencia == "Vulnerability images" && $_SESSION['idioma'] == "ES"){ $sentencia = "Imágenes de vulnerabilidad";};
@@ -46,7 +46,7 @@ function lang($sentencia){
     if($sentencia == "Free Hacking reporting tool from " && $_SESSION['idioma'] == "ES"){ $sentencia = "Herramienta gratuita de reporting, creada por: ";};
     if($sentencia == "List of vulnerabilities" && $_SESSION['idioma'] == "ES"){ $sentencia = "Listado de vulnerabilidades";};
     if($sentencia == "List" && $_SESSION['idioma'] == "ES"){ $sentencia = "Listado";};
-    if($sentencia == "Description" && $_SESSION['idioma'] == "ES"){ $sentencia = "Descripción";};
+    if($sentencia == "Description:" && $_SESSION['idioma'] == "ES"){ $sentencia = "Descripción:";};
     if($sentencia == "Description image" && $_SESSION['idioma'] == "ES"){ $sentencia = "Descripción de la imágen";};
     if($sentencia == "Criticality" && $_SESSION['idioma'] == "ES"){ $sentencia = "Criticidad";};
     if($sentencia == "Low" && $_SESSION['idioma'] == "ES"){ $sentencia = "Baja";};
@@ -102,7 +102,7 @@ function lang($sentencia){
     if($sentencia == "Delete company" && $_SESSION['idioma'] == "ES"){ $sentencia = "Eliminar empresa";};
     if($sentencia == "Company removed from the system" && $_SESSION['idioma'] == "ES"){ $sentencia = "Empresa eliminada del sistema";};
     if($sentencia == "Save this web in .mhtml format and open it in Word to edit the report!!" && $_SESSION['idioma'] == "ES"){ $sentencia = "Guarda esta web en formato .mhtml y abrela en Word para editar el informe!!";};
-    if($sentencia == "Document name" && $_SESSION['idioma'] == "ES"){ $sentencia = "Nombre del documento";};
+    if($sentencia == "Document" && $_SESSION['idioma'] == "ES"){ $sentencia = "Documento";};
     if($sentencia == "Customer name" && $_SESSION['idioma'] == "ES"){ $sentencia = "Nombre cliente";};
     if($sentencia == "Discharge date" && $_SESSION['idioma'] == "ES"){ $sentencia = "Fecha de alta";};
     if($sentencia == "Edit report" && $_SESSION['idioma'] == "ES"){ $sentencia = "Editar informe";};
@@ -149,12 +149,12 @@ function lang($sentencia){
     if($sentencia == "This report" && $_SESSION['idioma'] == "ES"){ $sentencia = "Este informe";};
     if($sentencia == "may recommend that" && $_SESSION['idioma'] == "ES"){ $sentencia = "podrá recomendar que";};
     if($sentencia == "use certain software or hardware products manufactured" && $_SESSION['idioma'] == "ES"){ $sentencia = "utilice ciertos productos de software o hardware fabricados";};
-    if($sentencia == "or maintained by other providers. BlackStone bases these recommendations on of your previous experience with the capabilities of these products. However, Blackstone cannot and should not guarantee that any particular product will perform as advertised by the seller." && $_SESSION['idioma'] == "ES"){ $sentencia = "o mantenidas por otros proveedores. BlackStone  basa estas recomendaciones a partir de su experiencia previa con las capacidades de estos productos. Sin embargo, BlackStone no puede y no debe garantizar que un determinado producto funcionará según lo anunciado por el vendedor. ";};
+    if($sentencia == "or maintained by other providers. 4k4m1m3 bases these recommendations on of your previous experience with the capabilities of these products. However, 4k4m1m3 cannot and should not guarantee that any particular product will perform as advertised by the seller." && $_SESSION['idioma'] == "ES"){ $sentencia = "o mantenidas por otros proveedores. 4k4m1m3  basa estas recomendaciones a partir de su experiencia previa con las capacidades de estos productos. Sin embargo, 4k4m1m3 no puede y no debe garantizar que un determinado producto funcionará según lo anunciado por el vendedor. ";};
     if($sentencia == "INDEX" && $_SESSION['idioma'] == "ES"){ $sentencia = "ÍNDICE";};
     if($sentencia == "(GENERATE INDEX WITH WORD)" && $_SESSION['idioma'] == "ES"){ $sentencia = "(GENERAR INDICE CON WORD)";};
     if($sentencia == "INTRODUCTION" && $_SESSION['idioma'] == "ES"){ $sentencia = "INTRODUCCIÓN";};
     if($sentencia == "During the tests, the activities that a real attacker would carry out are simulated, discovering the vulnerabilities, their level of risk, and generating recommendations that allow the client to carry out the remediation of these. Each section of this report details important aspects of how an attacker could use the vulnerability to compromise and gain unauthorized access to sensitive information. Are included In addition, guidelines that, when applied, will improve the levels of confidentiality, integrity and availability of the analyzed systems." && $_SESSION['idioma'] == "ES"){ $sentencia = "Durante las pruebas se simulan las actividades que realizaría un atacante real, descubriendo las vulnerabilidades, su nivel de riesgo, y generando recomendaciones que permitan al cliente realizar la remediación de estas. En cada sección de este informe se detallan los aspectos importantes de la forma en que un atacante podría utilizar la vulnerabilidad para comprometer y obtener acceso no autorizado a información sensible. Se incluyen además directrices que al ser aplicadas mejoraran los niveles de confidencialidad, integridad y disponibilidad de los sistemas analizados.";};
-    if($sentencia == "Vulnerability scans and ethical hacking tests were conducted by BlackStone's Red Team during the approved dates. The ethical hacking tests did not explicitly attempt to execute denial-of-service exploits and all of them were carried out without knowledge of users or passwords on the network." && $_SESSION['idioma'] == "ES"){ $sentencia = "Los análisis de vulnerabilidades y pruebas de hacking ético fueron realizados por el equipo de Red Team de BlackStone  durante las fechas aprobadas. Las pruebas de hacking ético no intentaron explícitamente la ejecución de exploits que implicaran denegación de servicio y todas ellas se realizaron sin conocimiento de usuarios o contraseñas en la red.";};
+    if($sentencia == "Vulnerability scans and ethical hacking tests were conducted by 4k4m1m3's Red Team during the approved dates. The ethical hacking tests did not explicitly attempt to execute denial-of-service exploits and all of them were carried out without knowledge of users or passwords on the network." && $_SESSION['idioma'] == "ES"){ $sentencia = "Los análisis de vulnerabilidades y pruebas de hacking ético fueron realizados por el equipo de Red Team de 4k4m1m3  durante las fechas aprobadas. Las pruebas de hacking ético no intentaron explícitamente la ejecución de exploits que implicaran denegación de servicio y todas ellas se realizaron sin conocimiento de usuarios o contraseñas en la red.";};
     if($sentencia == "OBJECTIVE" && $_SESSION['idioma'] == "ES"){ $sentencia = "OBJETIVO";};
     if($sentencia == "The objective of the security evaluation is to detect the existing security vulnerabilities in the analyzed systems in order to subsequently generate a report with the findings and recommendations that allow their remediation." && $_SESSION['idioma'] == "ES"){ $sentencia = "El objetivo de la evaluación de seguridad es detectar las vulnerabilidades de seguridad existentes en los sistemas analizados para posteriormente generar un informe con los hallazgos y recomendaciones que permitan la remediación de estas.";};
     if($sentencia == "SCOPE" && $_SESSION['idioma'] == "ES"){ $sentencia = "ALCANCE";};
@@ -165,14 +165,14 @@ function lang($sentencia){
     if($sentencia == "CONCLUSIONS" && $_SESSION['idioma'] == "ES"){ $sentencia = "CONCLUSIONES";};
     if($sentencia == "RECOMMENDATIONS" && $_SESSION['idioma'] == "ES"){ $sentencia = "RECOMENDACIONES";};
     if($sentencia == "Infrastructure improvement proposals" && $_SESSION['idioma'] == "ES"){ $sentencia = "Propuestas de mejora sobre la infraestructura";};
-    if($sentencia == "Criticality table" && $_SESSION['idioma'] == "ES"){ $sentencia = "Tabla de criticidad";};
+    if($sentencia == "CRITICALITY TABLE" && $_SESSION['idioma'] == "ES"){ $sentencia = "TABLA DE CRITICIDAD";};
     if($sentencia == "Recommendation" && $_SESSION['idioma'] == "ES"){ $sentencia = "Recomendación";};
     if($sentencia == "DOCUMENT CONTROL" && $_SESSION['idioma'] == "ES"){ $sentencia = "CONTROL DE DOCUMENTO";};
-    if($sentencia == "Vulnerability" && $_SESSION['idioma'] == "ES"){ $sentencia = "vulnerabilidad";};
+    if($sentencia == "Vulnerability" && $_SESSION['idioma'] == "ES"){ $sentencia = "Vulnerabilidad";};
     if($sentencia == "Amount" && $_SESSION['idioma'] == "ES"){ $sentencia = "Cantidad";};
     if($sentencia == "Percentage" && $_SESSION['idioma'] == "ES"){ $sentencia = "Porcentaje";};
     if($sentencia == "Critics" && $_SESSION['idioma'] == "ES"){ $sentencia = "Críticas";};
-    if($sentencia == "Penetration Test Report for" && $_SESSION['idioma'] == "ES"){ $sentencia = "Informe de Pentesting para";};
+    if($sentencia == "Penetration Test Report" && $_SESSION['idioma'] == "ES"){ $sentencia = "Informe de Pentesting";};
     if($sentencia == "YOU CAN MAKE REPORTS ON AUDITS AND CERTIFICATION EXAMS WITH THE FREE REPORTING TOOL FOR KALI AND PARROT" && $_SESSION['idioma'] == "ES"){ $sentencia = "PUEDES REALIZAR INFORMES DE AUDITORÍAS Y EXÁMENES DE CERTIFICACIONES CON LA HERRAMIENTA GRATUITA DE REPORTING PARA KALI Y PARROT";};
 
 

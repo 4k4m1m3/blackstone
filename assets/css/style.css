@@ -20834,4 +20834,8 @@ div.tagsinput {
   -webkit-flex-grow: 1;
   flex-grow: 1; }
 
+.page_break {
+    page-break-before: always;
+  }
+
 /*# sourceMappingURL=maps/style.css.map */
